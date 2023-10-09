@@ -1,6 +1,6 @@
 package geometria;
 
-public class Figura {
+public abstract class Figura {
 	
 	private String color;
 
@@ -16,5 +16,6 @@ public class Figura {
 		super();
 		this.color = color;
 	}
+	public abstract double superficie();
 	
 }
