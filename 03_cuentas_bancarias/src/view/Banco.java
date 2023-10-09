@@ -21,6 +21,7 @@ public class Banco {
 		limite=Double.parseDouble(sc.nextLine());
 		cuentamov=new CuentaMovimientos(codigo,saldo, limite);
 		//ahora viene el rollo menú...
+		System.out.println("lolo");
 		int opcion;
 		do {
 			mostrarMenu();
