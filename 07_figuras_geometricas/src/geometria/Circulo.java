@@ -1,28 +1,18 @@
 package geometria;
 
 public class Circulo extends Figura {
+	private int radio;
 	
-	private double radio;
-	
-	public Circulo(String color, double radio) {
+	public Circulo(String color, int radio) {
 		super(color);
-		// TODO Auto-generated constructor stub
+		this.radio = radio;
 	}
 
 	@Override
 	public double superficie() {
-		
+		// TODO Auto-generated method stub
 		return Math.PI*radio*radio;
-		
+		//return Math.PI*Math.pow(radio, 2);
 	}
-	
-	//-------------------------------
-	
-	public int convertir (Number num) {
-		
-		return num.intValue();
-		
-	}
+
 }
-
-
